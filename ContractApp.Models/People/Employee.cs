@@ -9,7 +9,7 @@ namespace ContractApp.Models.People
     {
         public PayrollContract MyProperty { get; set; }
         public EmployeeRole Role { get; set; }
-        public DateTime Birthday { get; set; }
+        public DateTime Birthdate { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime dateTime { get; set; }
     }
