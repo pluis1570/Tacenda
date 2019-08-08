@@ -4,8 +4,10 @@ using System.Text;
 
 namespace ContractApp.Models.People
 {
-    public class EmployeeRole
+    public enum EmployeeRole
     {
-        public string Roles { get; set; }
+       Accountant, 
+       Director,
+       recruitor
     }
 }

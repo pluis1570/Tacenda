@@ -11,6 +11,6 @@ namespace ContractApp.Models.People
         public EmployeeRole Role { get; set; }
         public DateTime Birthdate { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime dateTime { get; set; }
+        public DateTime StopTime { get; set; }
     }
 }

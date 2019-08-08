@@ -6,6 +6,6 @@ namespace ContractApp.Models.Skills
 {
     public class Specialisation:BaseClass
     {
-        public string  Title { get; set; }
+        public string Title { get; set; }
     }
 }
