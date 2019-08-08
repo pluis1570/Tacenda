@@ -9,7 +9,7 @@ namespace ContractApp.Models.People
     public class Consultant : Person
     {
         public PayrollContract Payroll { get; set; }
-        public Specialisation Title{ get; set; }
+        public Specialisation Specialisation { get; set; }
         public DateTime Birthdate { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime StopDate { get; set; }

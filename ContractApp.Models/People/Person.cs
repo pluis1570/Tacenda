@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ContractApp.Models.People
 {
-    public class Person
+    public class Person:BaseClass
     {
-        public Guid Id { get; set; }
+        
         public string Firstname { get; set; }
         public string Lastname { get; set; }
       

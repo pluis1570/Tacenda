@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ContractApp.Models.Skills
 {
-    public class Specialisation
+    public class Specialisation:BaseClass
     {
         public string  Title { get; set; }
     }
