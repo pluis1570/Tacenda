@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ContractApp.Models.Contracts
 {
-    public class ContractType
+    public enum ContractType
     {
 
     }
